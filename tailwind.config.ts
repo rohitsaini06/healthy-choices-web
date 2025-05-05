@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for substance abuse prevention website
+				prevention: {
+					primary: '#9b87f5',
+					secondary: '#7E69AB',
+					softBlue: '#D3E4FD',
+					skyBlue: '#33C3F0',
+					softGray: '#F1F0FB',
+					neutralGray: '#8E9196',
+					darkPurple: '#1A1F2C',
+				},
+			},
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
